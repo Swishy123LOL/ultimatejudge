@@ -37,8 +37,8 @@ int exec(const char* name){
         // of the child process, for example. 
 
     DWORD exitcode;
-    GetExitCodeProcess(piProcInfo.hProcess, &exitcode);
     WaitForSingleObject(piProcInfo.hProcess, INFINITE);
+    GetExitCodeProcess(piProcInfo.hProcess, &exitcode);
     // Close process and thread handles. 
     CloseHandle(piProcInfo.hProcess);
     CloseHandle(piProcInfo.hThread);
@@ -110,7 +110,7 @@ int main(int argc, char *argv[]){
 
     string compile_path = flags["i"], program_path = flags["o"];
     string command = "compiler.exe -i " + compile_path + " -o " + program_path;
-
+    
     if (exec(command.c_str()) == 1){
         cout << "Compilation failed. See compiler message in compiler_message.txt";
         return 0;

@@ -75,6 +75,9 @@ bool exec(const char* name){
 
     WaitForSingleObject(piProcInfo.hProcess, INFINITE);
 
+    DWORD exitcode;
+    GetExitCodeProcess(piProcInfo.hProcess, &exitcode);
+
     CloseHandle(g_hChildStd_OUT_Wr);
     if (!readFromPipe())
         return 0;
@@ -83,6 +86,7 @@ bool exec(const char* name){
     CloseHandle(piProcInfo.hProcess);
     CloseHandle(piProcInfo.hThread);
 
+    if (exitcode != 0) return 0;
     return 1;
 }
 
@@ -118,6 +122,7 @@ int main(int argc, char *argv[]){
     string compile_path = flags["i"], program_path = flags["o"];
     string command = "g++ -pedantic -Wall -Wextra -Wshadow -g3 -O0 " + compile_path + " -o " + program_path;
 
-    if (!exec(command.c_str())) return 0;
+    if (!exec(command.c_str()))
+        return 1;
     return 0;
 }

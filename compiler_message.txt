@@ -5,3 +5,23 @@ test.cpp:114:10: warning: declaration of 'q' shadows a global declaration [-Wsha
 test.cpp:88:12: note: shadowed declaration is here
    88 | long n, m, q;
       |            ^
+test.cpp:115:5: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  115 |     while(q--)
+      |     ^~~~~
+test.cpp:116:20: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+  116 |         long type; cin >> type;
+      |                    ^~~
+test.cpp:116:14: warning: unused variable 'type' [-Wunused-variable]
+  116 |         long type; cin >> type;
+      |              ^~~~
+test.cpp:116:27: error: 'type' was not declared in this scope; did you mean 'wctype'?
+  116 |         long type; cin >> type;
+      |                           ^~~~
+      |                           wctype
+test.cpp: At global scope:
+test.cpp:161:5: error: expected unqualified-id before 'return'
+  161 |     return 0;
+      |     ^~~~~~
+test.cpp:162:1: error: expected declaration before '}' token
+  162 | }
+      | ^
