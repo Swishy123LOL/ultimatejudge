@@ -171,7 +171,6 @@ result exec(const char* name){
         current = chrono::high_resolution_clock::now();
         crr_time = chrono::duration_cast<std::chrono::milliseconds>(current - begin).count();
 
-        cout << crr_time << endl;
         if (crr_time >= time_limit){
             UINT excode = 0;
             TerminateProcess(piProcInfo.hProcess, excode);

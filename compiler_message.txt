@@ -1,7 +1,7 @@
 test.cpp: In function 'int main()':
-test.cpp:64:13: warning: ISO C++ forbids variable length array 'a' [-Wvla]
-   64 |         int a[n];
-      |             ^
-test.cpp:73:24: warning: ISO C++ forbids variable length array 'dp' [-Wvla]
-   73 |         pair<int, int> dp[n];
-      |                        ^~
+test.cpp:114:10: warning: declaration of 'q' shadows a global declaration [-Wshadow]
+  114 |     long q; cin >> q;
+      |          ^
+test.cpp:88:12: note: shadowed declaration is here
+   88 | long n, m, q;
+      |            ^

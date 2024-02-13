@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Program Files/CodingShit/ultimatejudge",
-      "program": "c:/Program Files/CodingShit/ultimatejudge/build/Debug/outDebug",
+      "cwd": "c:/Users/Acer/Documents/GitHub/ultimatejudge",
+      "program": "c:/Users/Acer/Documents/GitHub/ultimatejudge/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

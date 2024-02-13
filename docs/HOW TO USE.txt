@@ -1,0 +1,15 @@
+Only run judge.exe! compiler.exe and executor.exe is only meant to be used when running judge.exe only!
+
+To run judge.exe, first you need to set some flags. Here are all the flags you MUST set before running
+
+-i : Source code path
+-o : Program destination path
+-t : Time limit (miliseconds)
+-m : Memory limit (bytes)
+-tj : testinfo.json path
+
+Example use: .\judge -i test.cpp -o test.exe -t 500 -m 1073741824 -tj .\\testcase\\testinfo.json
+
+testinfo.json is used to locate all the test input and output location file, as well as other information for the judge to handle these tests. You MUST set it before running judge.exe!!!
+
+testinfo.json can be set manually, or via testinfogen.exe. To do this, first place testinfogen.exe (located in .../testcase) in the directory of the tests you want to add, then run it, testinfogen.exe will convert all file with extension .in and .out to input and output file.
