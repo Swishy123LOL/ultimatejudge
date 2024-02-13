@@ -112,7 +112,7 @@ int main(int argc, char *argv[]){
     string command = "compiler.exe -i " + compile_path + " -o " + program_path;
     
     if (exec(command.c_str()) == 1){
-        cout << "Compilation failed. See compiler message in compiler_message.txt";
+        cout << "\033[1;31mCompilation failed\033[1;0m | See compiler message in compiler_message.txt";
         return 0;
     }   
 
@@ -166,7 +166,7 @@ int main(int argc, char *argv[]){
         else if (exe_j["Process result"] == 3)
             cout << "\033[1;33mMEMORY LIMIT EXCEEDED\033[1;0m | ";
         else if (exe_j["Process result"] == 4)
-            cout << "\033[1;31mmINTERNAL ERROR\033[1;0m | Error message: " << exe_j["Error message"] << " | ";
+            cout << "\033[1;31mINTERNAL ERROR\033[1;0m | Error message: " << exe_j["Error message"] << " | ";
 
         cout << exe_j["Running time"] << "ms " << (double)exe_j["Max memory usage"] / (double)(1024 * 1024) << "MB\n";
         exe_f.close(); 
