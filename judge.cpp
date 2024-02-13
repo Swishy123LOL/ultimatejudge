@@ -160,13 +160,13 @@ int main(int argc, char *argv[]){
             exec(command.c_str());
         }
         else if (exe_j["Process result"] == 1)
-            cout << "TIME LIMIT EXCEEDED | ";
+            cout << "\033[1;33mTIME LIMIT EXCEEDED\033[1;0m | ";
         else if (exe_j["Process result"] == 2)
-            cout << "RUNTIME ERROR | Exit code: " << exe_j["Exit code"] << " | ";
+            cout << "\033[1;33mRUNTIME ERROR\033[1;0m | Exit code: " << exe_j["Exit code"] << " | ";
         else if (exe_j["Process result"] == 3)
-            cout << "MEMORY LIMIT EXCEEDED | ";
+            cout << "\033[1;33mMEMORY LIMIT EXCEEDED\033[1;0m | ";
         else if (exe_j["Process result"] == 4)
-            cout << "INTERNAL ERROR | Error message: " << exe_j["Error message"] << " | ";
+            cout << "\033[1;31mmINTERNAL ERROR\033[1;0m | Error message: " << exe_j["Error message"] << " | ";
 
         cout << exe_j["Running time"] << "ms " << (double)exe_j["Max memory usage"] / (double)(1024 * 1024) << "MB\n";
         exe_f.close(); 

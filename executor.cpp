@@ -53,11 +53,21 @@ bool createPipe(){
     return 1;
 }
 
+auto _begin = chrono::high_resolution_clock::now();
+auto current = chrono::high_resolution_clock::now();
+long long crr_time = 0;
+
 bool writeToPipe() { 
     DWORD dwRead, dwWritten; 
     CHAR chBuf[BUFSIZE];
     BOOL bSuccess = FALSE;
     for (;;){ 
+        current = chrono::high_resolution_clock::now();
+        crr_time = chrono::duration_cast<std::chrono::milliseconds>(current - _begin).count();
+
+        if (crr_time >= time_limit)
+            return 1;
+
         bSuccess = ReadFile(g_hInputFile, chBuf, BUFSIZE, &dwRead, NULL);
         if (!dwRead)
             break;
@@ -154,9 +164,8 @@ result exec(const char* name){
     CloseHandle(g_hChildStd_IN_Rd);
 
     long long max_mem = 0;
-    auto begin = chrono::high_resolution_clock::now();
-    auto current = chrono::high_resolution_clock::now();
-    long long crr_time = 0;
+    _begin = chrono::high_resolution_clock::now();
+    current = chrono::high_resolution_clock::now();
 
     if (!writeToPipe()){
         closeHandle(piProcInfo);
@@ -169,7 +178,7 @@ result exec(const char* name){
             break;
 
         current = chrono::high_resolution_clock::now();
-        crr_time = chrono::duration_cast<std::chrono::milliseconds>(current - begin).count();
+        crr_time = chrono::duration_cast<std::chrono::milliseconds>(current - _begin).count();
 
         if (crr_time >= time_limit){
             UINT excode = 0;
