@@ -1,0 +1,5 @@
+-i : Input file path
+-o : Output file path
+-p : Program path
+-t : Time limit (miliseconds)
+-m : Memory limit (bytes)

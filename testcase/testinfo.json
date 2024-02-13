@@ -1,0 +1,128 @@
+{
+    "testcases": [
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test1.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test1.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test10.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test10.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test11.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test11.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test12.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test12.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test13.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test13.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test14.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test14.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test15.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test15.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test16.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test16.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test17.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test17.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test18.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test18.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test19.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test19.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test2.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test2.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test20.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test20.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test21.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test21.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test22.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test22.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test23.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test23.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test24.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test24.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test25.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test25.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test26.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test26.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test27.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test27.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test28.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test28.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test29.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test29.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test3.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test3.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test30.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test30.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test31.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test31.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test4.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test4.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test5.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test5.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test6.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test6.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test7.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test7.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test8.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test8.out"
+        },
+        {
+            "input": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test9.in",
+            "output": "C:\\Program Files\\CodingShit\\ultimatejudge\\testcase\\test9.out"
+        }
+    ]
+}

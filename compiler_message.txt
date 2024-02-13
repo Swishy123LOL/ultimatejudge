@@ -1,0 +1,7 @@
+test.cpp: In function 'int main()':
+test.cpp:64:13: warning: ISO C++ forbids variable length array 'a' [-Wvla]
+   64 |         int a[n];
+      |             ^
+test.cpp:73:24: warning: ISO C++ forbids variable length array 'dp' [-Wvla]
+   73 |         pair<int, int> dp[n];
+      |                        ^~

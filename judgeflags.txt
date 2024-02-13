@@ -1,0 +1,5 @@
+-i : Source code path
+-o : Program destination path
+-t : Time limit (miliseconds)
+-m : Memory limit (bytes)
+-tj : testinfo.json path
